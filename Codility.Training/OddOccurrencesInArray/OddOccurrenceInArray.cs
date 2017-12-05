@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 
 namespace Codility.Training.OddOccurrencesInArray
 {
@@ -7,21 +6,46 @@ namespace Codility.Training.OddOccurrencesInArray
     {
         public static int Solution(int[] array)
         {
-            List<int> result = new List<int>();
+            int result = 0;
+            array = array.OrderBy(x => x).ToArray();
 
-            foreach (int a in array)
+            for (int i = 0; i < array.Length - 1;)
             {
-                if (result.Contains(a))
+                if (array[i] == array[i + 1])
                 {
-                    result.Remove(a);
+                    i = i + 2;
                 }
                 else
                 {
-                    result.Add(a);
+                    result = array[i];
+                    break;
                 }
             }
 
-            return result.FirstOrDefault();
+            return result > 0 ? result : array[array.Length - 1];
         }
+
+        #region 25% in performace
+
+        //public static int Solution(int[] array)
+        //{
+        //    List<int> result = new List<int>();
+
+        //    foreach (int a in array)
+        //    {
+        //        if (result.Contains(a))
+        //        {
+        //            result.Remove(a);
+        //        }
+        //        else
+        //        {
+        //            result.Add(a);
+        //        }
+        //    }
+
+        //    return result.FirstOrDefault();
+        //}
+
+        #endregion
     }
 }
