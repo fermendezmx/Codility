@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="TBinaryGap\TBinaryGap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TCyclicRotation\TCyclicRotation.cs" />
     <Compile Include="TOddOccurrenceInArray\TOddOccurrenceInArray.cs" />
   </ItemGroup>
   <ItemGroup>

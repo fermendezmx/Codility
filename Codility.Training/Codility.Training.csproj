@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BinaryGap\BinaryGap.cs" />
     <Compile Include="Codility.cs" />
+    <Compile Include="CyclicRotation\CyclicRotation.cs" />
     <Compile Include="OddOccurrencesInArray\OddOccurrenceInArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BinaryGap\BinaryGap.png" />
+    <Content Include="CyclicRotation\CyclicRotation.png" />
     <Content Include="OddOccurrencesInArray\OddOccurrencesInArray.png" />
   </ItemGroup>
   <ItemGroup />
