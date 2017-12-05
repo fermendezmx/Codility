@@ -1,2 +1,2 @@
 # Codility.Training
-Solution for the problems presented by Codility
+My solution to the problems presented in Codility
