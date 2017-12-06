@@ -1,6 +1,5 @@
 ﻿using Codility.Training.CyclicRotation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace Codility.UnitTest.TCyclicRotation
 {
