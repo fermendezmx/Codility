@@ -1,4 +1,4 @@
-﻿namespace Codility.Training.CyclicRotation
+﻿namespace Codility.Training.Lesson2.Tasks
 {
     public static class CyclicRotation
     {
@@ -16,7 +16,7 @@
                         tempA = array[j];
                         array[j] = array[total - 1];
                     }
-                    else 
+                    else
                     {
                         tempB = array[j];
                         array[j] = tempA;

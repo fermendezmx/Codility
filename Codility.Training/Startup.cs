@@ -1,6 +1,6 @@
 ﻿namespace Codility.Training
 {
-    class Codility
+    class Startup
     {
         static void Main(string[] args)
         {

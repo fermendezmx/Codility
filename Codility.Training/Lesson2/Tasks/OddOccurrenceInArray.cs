@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Codility.Training.OddOccurrencesInArray
+namespace Codility.Training.Lesson2.Tasks
 {
     public static class OddOccurrenceInArray
     {

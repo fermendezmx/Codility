@@ -1,7 +1,7 @@
-﻿using Codility.Training.BinaryGap;
+﻿using Codility.Training.Lesson1.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Codility.UnitTest.TBinaryGap
+namespace Codility.UnitTest.Lesson1
 {
     [TestClass]
     public class TBinaryGap
@@ -12,7 +12,7 @@ namespace Codility.UnitTest.TBinaryGap
             int input = 9;
             int expected = 2;
             int result = BinaryGap.Solution(input);
-            
+
             Assert.AreEqual(expected, result);
         }
 

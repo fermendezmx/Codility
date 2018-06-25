@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.Training.BinaryGap
+namespace Codility.Training.Lesson1.Tasks
 {
     public static class BinaryGap
     {

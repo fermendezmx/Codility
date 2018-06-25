@@ -1,7 +1,7 @@
-﻿using Codility.Training.OddOccurrencesInArray;
+﻿using Codility.Training.Lesson2.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Codility.UnitTest.TOddOccurrenceInArray
+namespace Codility.UnitTest.Lesson2
 {
     [TestClass]
     public class TOddOccurrenceInArray

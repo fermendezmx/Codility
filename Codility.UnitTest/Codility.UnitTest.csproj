@@ -48,11 +48,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TBinaryGap\TBinaryGap.cs" />
+    <Compile Include="Lesson1\TBinaryGap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TCyclicRotation\TCyclicRotation.cs" />
-    <Compile Include="TOddOccurrenceInArray\TOddOccurrenceInArray.cs" />
-    <Compile Include="TTapeEquilibrium\TTapeEquilibrium.cs" />
+    <Compile Include="Lesson2\TCyclicRotation.cs" />
+    <Compile Include="Lesson2\TOddOccurrenceInArray.cs" />
+    <Compile Include="Lesson3\TTapeEquilibrium.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

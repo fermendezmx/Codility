@@ -1,7 +1,7 @@
-﻿using Codility.Training.TapeEquilibrium;
+﻿using Codility.Training.Lesson3.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Codility.UnitTest.TTapeEquilibrium
+namespace Codility.UnitTest.Lesson3
 {
     [TestClass]
     public class TTapeEquilibrium
