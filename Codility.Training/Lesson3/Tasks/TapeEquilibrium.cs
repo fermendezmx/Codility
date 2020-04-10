@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace Codility.Training.Lesson3.Tasks
 {
@@ -8,16 +7,23 @@ namespace Codility.Training.Lesson3.Tasks
         public static int Solution(int[] A)
         {
             int N = A.Length;
-            int splits = N - 1;
-            int firstPart, secondPart, difference, result = 0;
+            int firstPart = default,
+                secondPart = default,
+                difference, result = 0;
 
-            for (int P = 1; P <= splits; P++)
+            for (int P = 0; P < N; P++)
             {
-                firstPart = A.Take(P).Sum();
-                secondPart = A.Skip(P).Sum();
+                secondPart += A[P];
+            }
+
+            for (int P = 0; P < N - 1; P++)
+            {
+                firstPart += A[P];
+                secondPart -= A[P];
+
                 difference = Math.Abs(firstPart - secondPart);
 
-                if (difference < result || P == 1)
+                if (difference < result || P == 0)
                 {
                     result = difference;
                 }
