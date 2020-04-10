@@ -51,6 +51,7 @@
     <Compile Include="Lesson2\TCyclicRotation.cs" />
     <Compile Include="Lesson2\TOddOccurrenceInArray.cs" />
     <Compile Include="Lesson3\TTapeEquilibrium.cs" />
+    <Compile Include="Lesson3\TFrogJmp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
