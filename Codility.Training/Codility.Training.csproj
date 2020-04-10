@@ -49,18 +49,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Lesson3\Tasks\TapeEquilibrium.cs" />
     <Compile Include="Lesson3\Tasks\FrogJmp.cs" />
+    <Compile Include="Lesson3\Tasks\PermMissingElem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Lesson1\Iterations.pdf" />
-    <None Include="Lesson2\Arrays.pdf" />
-    <None Include="Lesson3\TimeComplexity.pdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Lesson1\Tasks\BinaryGap.png" />
-    <Content Include="Lesson2\Tasks\CyclicRotation.png" />
-    <Content Include="Lesson2\Tasks\OddOccurrencesInArray.png" />
-    <Content Include="Lesson3\Tasks\TapeEquilibrium.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
