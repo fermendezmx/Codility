@@ -53,6 +53,7 @@
     <Compile Include="Lesson4\Tasks\FrogRiverOne.cs" />
     <Compile Include="Lesson4\Tasks\PermCheck.cs" />
     <Compile Include="Lesson4\Tasks\MissingInteger.cs" />
+    <Compile Include="Lesson4\Tasks\MaxCounters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
