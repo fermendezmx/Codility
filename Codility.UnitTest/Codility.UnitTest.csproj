@@ -55,6 +55,7 @@
     <Compile Include="Lesson3\TPermMissingElem.cs" />
     <Compile Include="Lesson4\TFrogRiverOne.cs" />
     <Compile Include="Lesson4\TPermCheck.cs" />
+    <Compile Include="Lesson4\TMissingInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

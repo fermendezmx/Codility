@@ -52,6 +52,7 @@
     <Compile Include="Lesson3\Tasks\PermMissingElem.cs" />
     <Compile Include="Lesson4\Tasks\FrogRiverOne.cs" />
     <Compile Include="Lesson4\Tasks\PermCheck.cs" />
+    <Compile Include="Lesson4\Tasks\MissingInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
