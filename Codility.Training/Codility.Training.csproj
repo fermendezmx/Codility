@@ -51,6 +51,7 @@
     <Compile Include="Lesson3\Tasks\FrogJmp.cs" />
     <Compile Include="Lesson3\Tasks\PermMissingElem.cs" />
     <Compile Include="Lesson4\Tasks\FrogRiverOne.cs" />
+    <Compile Include="Lesson4\Tasks\PermCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
