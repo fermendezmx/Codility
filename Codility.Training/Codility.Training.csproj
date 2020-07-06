@@ -50,10 +50,15 @@
     <Compile Include="Lesson3\Tasks\TapeEquilibrium.cs" />
     <Compile Include="Lesson3\Tasks\FrogJmp.cs" />
     <Compile Include="Lesson3\Tasks\PermMissingElem.cs" />
+    <Compile Include="Lesson4\Tasks\FrogRiverOne.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Lesson4\" />
+    <Folder Include="Lesson4\Tasks\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
