@@ -14,7 +14,7 @@ namespace Codility.UnitTest.Lesson4
             int[] expected = { 3, 2, 2, 4, 2 };
             int[] result = MaxCounters.Solution(n, input);
 
-            Assert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, result);
         }
     }
 }
