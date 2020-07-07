@@ -6,6 +6,7 @@
         {
             int counter;
             int max = 0;
+            int start = 0;
             int m = A.Length;
             int[] counters = new int[N];
 
@@ -15,9 +16,16 @@
                 // If A[K] = N + 1 then operation K is max counter
                 if (A[k] == N + 1)
                 {
-                    // Set every counter to the higher counter found until now
-                    SetMaxCounter(max, counters);
+                    // Set a new start for every element
+                    start = max;
                     continue;
+                }
+
+                // If the current counter is behind
+                if (counters[A[k] - 1] < start)
+                {
+                    // Update the counter to the latest 'max' found
+                    counters[A[k] - 1] = start;
                 }
 
                 // If A[K] = X, then operation K is increase(X)
@@ -31,16 +39,17 @@
                 }
             }
 
-            return counters;
-        }
-
-        private static void SetMaxCounter(int max, int[] counters)
-        {
+            // Look for those counters that are behind the last 'max' value
             for (int i = 0; i < counters.Length; i++)
             {
-                // Set every counter to the higher counter found until now
-                counters[i] = max;
+                if (counters[i] < start)
+                {
+                    // Set the counter to the higher counter found until now
+                    counters[i] = start;
+                }
             }
+
+            return counters;
         }
     }
 }
